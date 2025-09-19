@@ -1,0 +1,160 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/fmt_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Documents/Projects/Editor/out/build/debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/CMakeLists.txt",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/support/cmake/JoinPaths.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake",
+		"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/support/cmake/fmt.pc.in",
+		"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/support/cmake/fmt-config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Documents/Projects/Editor",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/fmt_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "fmt_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/args.h",
+			"MU",
+			"4KJVY35SYX/moc_args.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/chrono.h",
+			"MU",
+			"4KJVY35SYX/moc_chrono.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/color.h",
+			"MU",
+			"4KJVY35SYX/moc_color.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/compile.h",
+			"MU",
+			"4KJVY35SYX/moc_compile.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/core.h",
+			"MU",
+			"4KJVY35SYX/moc_core.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/format-inl.h",
+			"MU",
+			"4KJVY35SYX/moc_format-inl.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/format.h",
+			"MU",
+			"4KJVY35SYX/moc_format.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/os.h",
+			"MU",
+			"4KJVY35SYX/moc_os.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/ostream.h",
+			"MU",
+			"4KJVY35SYX/moc_ostream.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/printf.h",
+			"MU",
+			"4KJVY35SYX/moc_printf.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/ranges.h",
+			"MU",
+			"4KJVY35SYX/moc_ranges.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/std.h",
+			"MU",
+			"4KJVY35SYX/moc_std.cpp",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include/fmt/xchar.h",
+			"MU",
+			"4KJVY35SYX/moc_xchar.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/fmt_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/fmt_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "WIN32" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [ "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/include" ],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 16,
+	"PARSE_CACHE_FILE" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/CMakeFiles/fmt_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/6.9.2/msvc2022_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/6.9.2/msvc2022_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/CMakeFiles/fmt_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/src/format.cc",
+			"MU",
+			null
+		],
+		[
+			"D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-src/src/os.cc",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

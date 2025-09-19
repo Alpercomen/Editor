@@ -1,0 +1,7 @@
+set(__QT_DEPLOY_TARGET_fmt_FILE D:/Documents/Projects/Editor/out/build/debug/_deps/fmt-build/fmtd.lib)
+set(__QT_DEPLOY_TARGET_fmt_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_spdlog_FILE D:/Documents/Projects/Editor/out/build/debug/_deps/spdlog-build/spdlogd.lib)
+set(__QT_DEPLOY_TARGET_spdlog_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_Editor_FILE D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor.exe)
+set(__QT_DEPLOY_TARGET_Editor_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_Editor_RUNTIME_DLLS C:/Qt/6.9.2/msvc2022_64/bin/Qt6Widgetsd.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Guid.dll;C:/Qt/6.9.2/msvc2022_64/bin/Qt6Cored.dll)

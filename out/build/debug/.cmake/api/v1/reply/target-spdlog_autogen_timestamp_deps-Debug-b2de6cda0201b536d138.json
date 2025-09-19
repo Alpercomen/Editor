@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"out/build/debug/_deps/spdlog-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "fmt::@976f4f0bee90b99ecdb6"
+		}
+	],
+	"id" : "spdlog_autogen_timestamp_deps::@eb35cfce7893ccfeff1e",
+	"isGeneratorProvided" : true,
+	"name" : "spdlog_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "_deps/spdlog-build",
+		"source" : "out/build/debug/_deps/spdlog-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

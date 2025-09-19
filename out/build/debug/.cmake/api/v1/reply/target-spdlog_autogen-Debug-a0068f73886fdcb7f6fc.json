@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"out/build/debug/_deps/spdlog-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "spdlog_autogen_timestamp_deps::@eb35cfce7893ccfeff1e"
+		}
+	],
+	"id" : "spdlog_autogen::@eb35cfce7893ccfeff1e",
+	"isGeneratorProvided" : true,
+	"name" : "spdlog_autogen",
+	"paths" : 
+	{
+		"build" : "_deps/spdlog-build",
+		"source" : "out/build/debug/_deps/spdlog-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/spdlog-build/CMakeFiles/spdlog_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/spdlog-build/CMakeFiles/spdlog_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/spdlog-build/spdlog_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

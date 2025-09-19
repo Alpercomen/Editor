@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"out/build/debug/_deps/fmt-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "fmt_autogen_timestamp_deps::@976f4f0bee90b99ecdb6"
+		}
+	],
+	"id" : "fmt_autogen::@976f4f0bee90b99ecdb6",
+	"isGeneratorProvided" : true,
+	"name" : "fmt_autogen",
+	"paths" : 
+	{
+		"build" : "_deps/fmt-build",
+		"source" : "out/build/debug/_deps/fmt-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/fmt-build/CMakeFiles/fmt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/fmt-build/CMakeFiles/fmt_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/debug/_deps/fmt-build/fmt_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"out/build/debug/_deps/fmt-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "fmt_autogen_timestamp_deps::@976f4f0bee90b99ecdb6",
+	"isGeneratorProvided" : true,
+	"name" : "fmt_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "_deps/fmt-build",
+		"source" : "out/build/debug/_deps/fmt-src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

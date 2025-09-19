@@ -1,0 +1,19 @@
+# ninja log v6
+39	1988	7800117948589544	Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+141	2412	7800105928528896	Source/Application/CMakeFiles/Editor.dir/Editor.cpp.obj	f752b88a7264bec4
+39	1988	7800117948589544	Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+39	1988	7800117948589544	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+39	1988	7800117948589544	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+2413	2670	7800105951249815	Source/Application/Editor.exe	88e630f7f9477ace
+138	451	7800105928487395	Source/Application/CMakeFiles/Editor.dir/Editor_autogen/mocs_compilation.cpp.obj	afe5b7d70fe0fa01
+43	416	7800118923088500	Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+43	416	7800118923088500	Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+43	416	7800118923088500	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+43	416	7800118923088500	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+44	424	7800120756327379	Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+44	424	7800120756327379	Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+44	424	7800120756327379	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/timestamp	24161486e10dc5d1
+44	424	7800120756327379	D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/mocs_compilation.cpp	24161486e10dc5d1
+427	2422	7800120756847462	Source/Application/CMakeFiles/Editor.dir/Editor.cpp.obj	f752b88a7264bec4
+424	2483	7800120756827463	Source/Application/CMakeFiles/Editor.dir/Editor_autogen/mocs_compilation.cpp.obj	afe5b7d70fe0fa01
+2484	2663	7800120777417879	Source/Application/Editor.exe	88e630f7f9477ace
