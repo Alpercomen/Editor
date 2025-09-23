@@ -149,6 +149,7 @@
 	"MOC_COMPILATION_FILE" : "D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
+		"PROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\"",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_WIDGETS_LIB",

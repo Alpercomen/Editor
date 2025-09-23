@@ -4,6 +4,35 @@
 #include <QString>
 #include <QModelIndex>
 
+// Proxy that shows only directories (for the tree on the left)
+class DirectoryOnlyProxy : public QSortFilterProxyModel {
+public:
+    using QSortFilterProxyModel::QSortFilterProxyModel;
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex& source_parent) const override {
+        const auto* fsm = qobject_cast<const QFileSystemModel*>(sourceModel());
+        if (!fsm) return true;
+        const QModelIndex idx = fsm->index(source_row, 0, source_parent);
+        return fsm->isDir(idx);
+    }
+};
+
+// Proxy for the right list that pins the current directory as visible
+class ListFilterProxy : public QSortFilterProxyModel {
+public:
+    using QSortFilterProxyModel::QSortFilterProxyModel;
+    void setPinnedRoot(const QModelIndex& srcRoot) { m_pinnedRoot = srcRoot; }
+protected:
+    bool filterAcceptsRow(int row, const QModelIndex& parent) const override {
+        const QModelIndex idx = sourceModel()->index(row, 0, parent);
+        if (m_pinnedRoot.isValid() && idx == m_pinnedRoot)
+            return true;  // keep current directory visible
+        return QSortFilterProxyModel::filterAcceptsRow(row, parent);
+    }
+private:
+    QModelIndex m_pinnedRoot;
+};
+
 class FileFilterProxyModel : public QSortFilterProxyModel
 {
     Q_OBJECT

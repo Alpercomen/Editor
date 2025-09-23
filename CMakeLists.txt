@@ -12,3 +12,5 @@ include(HandleQt)       # <-- after project()
 
 add_subdirectory(External)
 add_subdirectory(Source/Application)
+
+target_compile_definitions(Editor PRIVATE PROJECT_SOURCE_DIR="${CMAKE_SOURCE_DIR}")

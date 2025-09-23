@@ -597,7 +597,7 @@ build _deps\spdlog-build\CMakeFiles\spdlog_autogen | ${cmake_ninja_workdir}_deps
 build cmake_object_order_depends_target_Editor: phony || Source\Application\Editor_autogen Source\Application\Editor_autogen\mocs_compilation.cpp Source\Application\Editor_autogen\timestamp Source\Application\Editor_autogen_timestamp_deps
 
 build Source\Application\CMakeFiles\Editor.dir\Editor_autogen\mocs_compilation.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\mocs_compilation.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -606,7 +606,7 @@ build Source\Application\CMakeFiles\Editor.dir\Editor_autogen\mocs_compilation.c
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\Editor.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\Editor.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -615,7 +615,7 @@ build Source\Application\CMakeFiles\Editor.dir\Editor.cpp.obj: CXX_COMPILER__Edi
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\QTUtils\Main\MainWindow.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\QTUtils\Main\MainWindow.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -624,7 +624,7 @@ build Source\Application\CMakeFiles\Editor.dir\QTUtils\Main\MainWindow.cpp.obj: 
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\QTUtils\Model\Hierarchy.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\QTUtils\Model\Hierarchy.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -633,7 +633,7 @@ build Source\Application\CMakeFiles\Editor.dir\QTUtils\Model\Hierarchy.cpp.obj: 
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\QTUtils\Panel\Inspector.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\QTUtils\Panel\Inspector.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -642,7 +642,7 @@ build Source\Application\CMakeFiles\Editor.dir\QTUtils\Panel\Inspector.cpp.obj: 
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\QTUtils\View\ContentBrowser.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\QTUtils\View\ContentBrowser.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir
@@ -651,7 +651,7 @@ build Source\Application\CMakeFiles\Editor.dir\QTUtils\View\ContentBrowser.cpp.o
   TARGET_PDB = Source\Application\Editor.pdb
 
 build Source\Application\CMakeFiles\Editor.dir\QTUtils\View\Scene.cpp.obj: CXX_COMPILER__Editor_unscanned_Debug D$:\Documents\Projects\Editor\Source\Application\QTUtils\View\Scene.cpp || cmake_object_order_depends_target_Editor
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DPROJECT_SOURCE_DIR=\"D:/Documents/Projects/Editor\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = -DQT_QML_DEBUG /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
   INCLUDES = -ID:\Documents\Projects\Editor\out\build\debug\Source\Application\Editor_autogen\include -ID:\Documents\Projects\Editor\Source -external:IC:\Qt\6.9.2\msvc2022_64\include\QtCore -external:IC:\Qt\6.9.2\msvc2022_64\include -external:IC:\Qt\6.9.2\msvc2022_64\mkspecs\win32-msvc -external:IC:\Qt\6.9.2\msvc2022_64\include\QtWidgets -external:IC:\Qt\6.9.2\msvc2022_64\include\QtGui -external:IC:\VulkanSDK\1.3.296.0\Include -external:W0
   OBJECT_DIR = Source\Application\CMakeFiles\Editor.dir

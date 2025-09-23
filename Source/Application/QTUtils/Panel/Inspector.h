@@ -8,8 +8,10 @@ class InspectorPanel : public QWidget {
 public:
 	explicit InspectorPanel(QWidget* parent = nullptr);
 
+
 public slots:
 	void showEntity(const QString& name);
+
 
 private:
 	void addKV(const QString& k, const QString& v);

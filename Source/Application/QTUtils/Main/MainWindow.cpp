@@ -1,10 +1,13 @@
 #pragma once
+#include <QDockWidget>
+#include <QToolBar>
+#include <QAction>
 #include <QStyle>
 #include <QTreeView>
 #include <QStatusBar>
 #include <QModelIndex>
-#include <QToolbar>
-#include <QDockwidget>
+#include <QDir>
+#include <QCoreApplication>
 
 #include <Application/QTUtils/Main/MainWindow.h>
 #include <Application/QTUtils/Model/Hierarchy.h>
@@ -26,22 +29,36 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
 	buildDocks();
 
 
+	// Point Content Browser at project source tree (locked)
+#ifdef PROJECT_SOURCE_DIR
+	contentBrowser->setRootPath(QString::fromUtf8(PROJECT_SOURCE_DIR));
+#else
+// Fallback: try repo root two levels up from exe (Build/<cfg>/Editor.exe)
+	contentBrowser->setRootPath(QDir::cleanPath(QCoreApplication::applicationDirPath() + "/../.."));
+#endif
+
+
 	statusBar()->showMessage("Ready");
 }
 
-
-void MainWindow::buildMenusAndToolbars() 
-{
+void MainWindow::buildMenusAndToolbars() {
 	auto* tb = addToolBar("Playback");
+
+	// Create expanding spacers
+	QWidget* leftSpacer = new QWidget(tb);
+	QWidget* rightSpacer = new QWidget(tb);
+	leftSpacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+	rightSpacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+
+	tb->addWidget(leftSpacer);
+
 	actPlay = tb->addAction(style()->standardIcon(QStyle::SP_MediaPlay), "Play");
 	actStop = tb->addAction(style()->standardIcon(QStyle::SP_MediaStop), "Stop");
 	actFF = tb->addAction(style()->standardIcon(QStyle::SP_MediaSkipForward), "Fast-Forward");
+
+	tb->addWidget(rightSpacer);
+
 	tb->setMovable(false);
-
-
-	connect(actPlay, &QAction::triggered, this, [this] { statusBar()->showMessage("Play"); });
-	connect(actStop, &QAction::triggered, this, [this] { statusBar()->showMessage("Stop"); });
-	connect(actFF, &QAction::triggered, this, [this] { statusBar()->showMessage("Fast-Forward"); });
 }
 
 void MainWindow::buildDocks() {
