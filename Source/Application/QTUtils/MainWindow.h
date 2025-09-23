@@ -22,13 +22,14 @@
 #include <Application/QTUtils/ProxyModel.h>
 #include <Application/QTUtils/ViewModel.h>
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow 
+{
     Q_OBJECT
 public:
     MainWindow(QWidget* parent = nullptr)
         : QMainWindow(parent)
     {
-        setWindowTitle("Content Browser – Qt (MVC/MVVM)");
+        setWindowTitle("Content Browser");
         resize(1200, 700);
 
         // Models
@@ -103,11 +104,10 @@ public:
 
         // Wiring
         connect(filterEdit, &QLineEdit::textChanged, vm, &ContentBrowserViewModel::setFilterText);
-        connect(vm, &ContentBrowserViewModel::statusTextChanged, this,
-            [this](const QString& s) { statusBar()->showMessage(s); });
-
+        connect(vm, &ContentBrowserViewModel::statusTextChanged, this, [this](const QString& s) { statusBar()->showMessage(s); });
         connect(tree->selectionModel(), &QItemSelectionModel::currentChanged, this,
-            [this](const QModelIndex& current, const QModelIndex&) {
+            [this](const QModelIndex& current, const QModelIndex&) 
+            {
                 const QString path = fsModel->fileInfo(current).absoluteFilePath();
                 vm->setCurrentDir(path);
                 const QModelIndex proxyRoot = proxy->mapFromSource(current);
@@ -116,7 +116,8 @@ public:
             });
 
         connect(table, &QTableView::doubleClicked, this,
-            [this](const QModelIndex& proxyIndex) {
+            [this](const QModelIndex& proxyIndex) 
+            {
                 const QModelIndex srcIndex = proxy->mapToSource(proxyIndex);
                 const QFileInfo fi = fsModel->fileInfo(srcIndex);
                 if (fi.isDir()) {
@@ -129,29 +130,36 @@ public:
             });
 
         connect(table->selectionModel(), &QItemSelectionModel::currentChanged, this,
-            [this](const QModelIndex& current, const QModelIndex&) {
+            [this](const QModelIndex& current, const QModelIndex&) 
+            {
                 updatePreview(current);
             });
 
-        connect(upAction, &QAction::triggered, this, [this] {
-            const QModelIndex current = tree->currentIndex();
-            const QModelIndex parent = current.parent();
-            if (parent.isValid()) {
-                tree->setCurrentIndex(parent);
-                tree->expand(parent);
-            }
+        connect(upAction, &QAction::triggered, this, [this] 
+            {
+                const QModelIndex current = tree->currentIndex();
+                const QModelIndex parent = current.parent();
+                if (parent.isValid()) 
+                {
+                    tree->setCurrentIndex(parent);
+                    tree->expand(parent);
+                }
             });
-        connect(homeAction, &QAction::triggered, this, [this] {
-            const QModelIndex home = fsModel->index(QDir::homePath());
-            tree->setCurrentIndex(home);
-            tree->expand(home);
+        connect(homeAction, &QAction::triggered, this, [this] 
+            {
+                const QModelIndex home = fsModel->index(QDir::homePath());
+                tree->setCurrentIndex(home);
+                tree->expand(home);
             });
-        connect(openAction, &QAction::triggered, this, [this] {
-            const QModelIndex current = table->currentIndex();
-            if (!current.isValid()) return;
-            const QFileInfo fi = fsModel->fileInfo(proxy->mapToSource(current));
-            if (fi.exists() && fi.isFile())
-                QDesktopServices::openUrl(QUrl::fromLocalFile(fi.absoluteFilePath()));
+        connect(openAction, &QAction::triggered, this, [this] 
+            {
+                const QModelIndex current = table->currentIndex();
+                if (!current.isValid()) 
+                    return;
+
+                const QFileInfo fi = fsModel->fileInfo(proxy->mapToSource(current));
+                if (fi.exists() && fi.isFile())
+                    QDesktopServices::openUrl(QUrl::fromLocalFile(fi.absoluteFilePath()));
             });
 
         // Initialize
@@ -179,7 +187,7 @@ private:
             "<b>%1</b><br/>Type: %2<br/>Size: %3 bytes<br/>Modified: %4<br/>Path: %5")
             .arg(fi.fileName())
             .arg(type)
-            .arg(QString::number(fi.isDir() ? 0 : static_cast<qlonglong>(fi.size()))) // avoid arg overload issues
+            .arg(QString::number(fi.isDir() ? 0 : static_cast<qlonglong>(fi.size())))
             .arg(modifiedStr)
             .arg(fi.absoluteFilePath());
 
