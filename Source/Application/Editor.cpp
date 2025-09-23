@@ -1,6 +1,6 @@
 #pragma once
-#include <Application/Core/Core.h>
-#include <Application/QTUtils/MainWindow.h>
+#include <QApplication>
+#include <Application/QTUtils/Main/MainWindow.h>
 
 int main(int argc, char* argv[])
 {

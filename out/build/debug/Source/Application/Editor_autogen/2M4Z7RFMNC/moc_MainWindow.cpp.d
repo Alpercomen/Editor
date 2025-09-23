@@ -288,5 +288,5 @@ D:/Documents/Projects/Editor/out/build/debug/Source/Application/Editor_autogen/2
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.9.2/msvc2022_64/include/QtWidgets/qwidget.h \
-  D:/Documents/Projects/Editor/Source/Application/QTUtils/ProxyModel.h \
-  D:/Documents/Projects/Editor/Source/Application/QTUtils/ViewModel.h
+  D:/Documents/Projects/Editor/Source/Application/QTUtils/Proxy/FileFilter.h \
+  D:/Documents/Projects/Editor/Source/Application/QTUtils/View/ContentBrowser.h
